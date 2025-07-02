@@ -1,0 +1,11 @@
+# Ignora diretórios e arquivos gerados pelo Git
+.git
+.gitignore
+
+# Ignora diretórios de build do Maven e Gradle
+/target
+/build
+
+# Ignora arquivos de log e configurações de IDE
+.idea
+*.iml
