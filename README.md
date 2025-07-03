@@ -73,12 +73,12 @@ Este projeto foi desenvolvido como parte do meu aprendizado em Java com Spring B
    ./mvnw clean package
    ```
    ou no Windows:
-   ```sh
+   ```
    mvnw.cmd clean package
    ```
 
 2. **Suba a aplicação e o banco de dados:**
-   ```sh
+   ```
    docker-compose up --build
    ```
 
@@ -86,7 +86,7 @@ Este projeto foi desenvolvido como parte do meu aprendizado em Java com Spring B
    [http://localhost:8081-h2/console](http://localhost:8081)
 
 4. **Para parar tudo:**
-   ```sh
+   ```
    docker-compose down
    ```
 
