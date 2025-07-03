@@ -1,14 +1,7 @@
-# Define os serviços que compõem a sua aplicação.
-# Neste caso, temos apenas um serviço: a própria aplicação Spring Boot.
 services:
-  # Nome lógico do nosso serviço dentro do Compose. Pode ser qualquer nome.
   app:
-    # Instrução para construir a imagem Docker.
-    # O "." indica que a Dockerfile está no mesmo diretório que o docker-compose.yml.
     build: .
-    # Mapeia a porta 8081 do seu computador (host) para a porta 8081 do contêiner.
-    # É o mesmo que usar o argumento "-p 8081:8081" no comando "docker run".
     ports:
       - "8081:8081"
-    # Define um nome amigável para o contêiner quando ele estiver em execução.
+
     container_name: cadastro-usuario-app
